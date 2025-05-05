@@ -16,6 +16,11 @@ public class MyController {
         return "Welcome to spring boot";
     }
 
+    @GetMapping("/say")
+    public String stay(){
+        return "Welcome to spring boot for rapid development";
+    }
+
 }
 
 
