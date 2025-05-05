@@ -21,6 +21,10 @@ public class MyController {
         return "Welcome to spring boot for rapid development";
     }
 
+    @GetMapping("/ask")
+    public String tay(){
+        return "Interested candids can book a slot";
+    }
 }
 
 
